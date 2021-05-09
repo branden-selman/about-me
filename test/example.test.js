@@ -1,6 +1,7 @@
+/* eslint-disable new-cap */
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { YesOrNo } from "utils.js";
+import { YesOrNo } from 'utils.js';
 
 const test = QUnit.test;
 

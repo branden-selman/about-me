@@ -12,7 +12,7 @@ button.addEventListener("click", () => {
   console.log("startquiz");
   if (startquiz === false) {
     return;
-})
+}
   const firstName = prompt("What is your first name");
     const lastName = prompt("What is your last name?");
 console.log (firstName, lastName);
@@ -37,8 +37,3 @@ if (!YesOrNo(Answer3)) {
 };
 
 const results = "Congratulations ${firstName} ${LastName}! You got ${score} out of 3!"
-// initialize state
-
-// set event listeners
-// get user input
-// use user input to update state
