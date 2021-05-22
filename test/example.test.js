@@ -1,7 +1,7 @@
 /* eslint-disable new-cap */
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { YesOrNo } from 'utils.js';
+import { yesOrNo } from 'utils.js';
 
 const test = QUnit.test;
 
@@ -12,7 +12,7 @@ test('accept any word that starts with y and return true', (expect) => {
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = YesOrNo('yes');
+    const actual = yesOrNo('yes');
 
     //Expect
     // Make assertions about what is expected versus the actual result
@@ -26,7 +26,7 @@ test('accept any word that does NOT start with y and return false', (expect) => 
     
     //Act 
     // Call the function you're testing and set the result to a const
-    const actual = YesOrNo('no');
+    const actual = yesOrNo('no');
 
     //Expect
     // Make assertions about what is expected versus the actual result
