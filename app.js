@@ -26,19 +26,21 @@ button.addEventListener('click', () => {
 
     // eslint-disable-next-line new-cap
     if (yesOrNo(Answer1)) {
-        score++;
+        score = score + 1;
 
     }
     // eslint-disable-next-line new-cap
     if (yesOrNo(Answer2)) {
-        score++;
+        score = score + 1;
 
     }
     // eslint-disable-next-line new-cap
     if (!yesOrNo(Answer3)) {
-        score++;
+        score = score + 1;
 
     }
 
-    const results = 'Congratulations ${firstName} ${LastName}! You got ${score} out of 3!';
+    const results = `Congratulations ${firstName} ${lastName}! You got ${score} out of 3!`;
+
+    resultsDiv.textContent = results;
 });
